@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EyeBot</string>
+    <string name="bot_name">OrderFlowers</string>
+    <string name="bot_alias">$LATEST</string>
+    <string name="identity_id_test">us-east-1:fd2c8393-b834-4ead-8d0f-d04f53709db4</string>
+    <string name="cognito_region">us-east-1</string>
+    <string name="lex_region">us-east-1</string>
+    <string name="screen_options_main_message">Welcome to EyeBot</string>
+</resources>
