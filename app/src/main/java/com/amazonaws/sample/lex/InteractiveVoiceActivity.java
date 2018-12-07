@@ -17,6 +17,7 @@ package com.amazonaws.sample.lex;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -85,8 +86,9 @@ public class InteractiveVoiceActivity extends Activity
     public void onResponse(Response response) {
         Log.d(TAG, "Bot response: " + response.getTextResponse());
         Log.d(TAG, "Transcript: " + response.getInputTranscript());
-
+        responseTextView.setTextColor(Color.WHITE);
         responseTextView.setText(response.getTextResponse());
+        responseTextView.setTextColor(Color.WHITE);
         transcriptTextView.setText(response.getInputTranscript());
     }
 

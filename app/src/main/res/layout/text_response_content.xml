@@ -6,6 +6,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="@dimen/activity_button_height"
+        android:hint="What's on your mind?"
         android:inputType="text"
         android:paddingLeft="@dimen/activity_intra_group_separation"
         android:background="@drawable/border_rounded_1"
